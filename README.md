@@ -1,6 +1,7 @@
 Link do projeto: https://wokwi.com/projects/431744941082328065
 
 Monitoramento de Temperatura com ESP32 e Sensor LM35
+
 Este projeto tem como objetivo monitorar a temperatura usando o sensor LM35 conectado ao ESP32. As leituras são feitas constantemente e enviadas para um broker MQTT usando Wi-Fi. Também é possível simular tudo no Wokwi.
 
 Funcionalidades
