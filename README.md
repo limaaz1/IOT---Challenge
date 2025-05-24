@@ -24,6 +24,7 @@ Resultados:
 Durante os testes, foi possível ver a temperatura variando no monitor serial. Quando a temperatura passou de 105 graus, o alerta apareceu corretamente. A comunicação com o MQTT também funcionou, e os dados foram publicados com sucesso no tópico.
 
 Tecnologias usadas:
+
 Simulador Wokwi ([https://wokwi.com](https://wokwi.com/projects/431744941082328065))
 
 ESP32
