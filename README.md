@@ -15,18 +15,21 @@ Se a temperatura passar de 105 graus, um alerta é exibido no monitor serial.
 
 Envio da temperatura via MQTT para o tópico fiap/iot/temperatura.
 
-Como funciona
+Como funciona:
+
 O ESP32 lê os dados do sensor LM35 e calcula a temperatura. Se a temperatura estiver entre 90 e 100 graus, é considerada normal. Se ultrapassar 105 graus, aparece um alerta. O valor da temperatura é enviado a cada 2 segundos para o broker MQTT.
 
-Resultados
+Resultados:
+
 Durante os testes, foi possível ver a temperatura variando no monitor serial. Quando a temperatura passou de 105 graus, o alerta apareceu corretamente. A comunicação com o MQTT também funcionou, e os dados foram publicados com sucesso no tópico.
 
-Tecnologias usadas
+Tecnologias usadas:
+Simulador Wokwi ([https://wokwi.com](https://wokwi.com/projects/431744941082328065))
+
 ESP32
 
 Sensor de temperatura LM35
 
-Simulador Wokwi ([https://wokwi.com](https://wokwi.com/projects/431744941082328065))
 
 Protocolo MQTT
 
@@ -34,7 +37,7 @@ Broker público HiveMQ (broker.hivemq.com)
 
 Arduino IDE
 
-Bibliotecas
+Bibliotecas:
 WiFi.h
 
 PubSubClient.h
