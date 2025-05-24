@@ -4,7 +4,8 @@ Monitoramento de Temperatura com ESP32 e Sensor LM35
 
 Este projeto tem como objetivo monitorar a temperatura usando o sensor LM35 conectado ao ESP32. As leituras são feitas constantemente e enviadas para um broker MQTT usando Wi-Fi. Também é possível simular tudo no Wokwi.
 
-Funcionalidades
+Funcionalidades:
+
 Leitura da temperatura com o sensor LM35.
 
 Conversão do sinal analógico em graus Celsius.
