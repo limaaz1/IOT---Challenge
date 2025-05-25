@@ -45,3 +45,7 @@ WiFi.h
 PubSubClient.h
 
 ArduinoJson.h
+
+Guilherme Jesus Lima / RM:555002
+Jean Roberto Gome / RM:94418
+Lucas de Melo Pinheiro Pinho / RM:558791
